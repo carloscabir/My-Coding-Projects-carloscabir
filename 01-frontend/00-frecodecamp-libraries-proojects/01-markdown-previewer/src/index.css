@@ -1,0 +1,88 @@
+html {
+  font-size: 16px;
+  color: white;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 2.5rem;
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+textarea {
+  max-width: 90%;
+  outline: none;
+  resize: vertical;
+  padding: 1.5rem;
+  border: thin solid black;
+  background-color: rgb(241, 212, 217);
+  opacity: 0.8;
+  filter: brightness(0.7);
+  transition: opacity 500ms ease-in-out, filter 500ms ease-in-out;
+}
+
+textarea:focus {
+  opacity: 1;
+  filter: brightness(1);
+}
+
+.title {
+  text-align: center;
+}
+
+.editor-container {
+  background-color: thistle;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  color: #222;
+}
+
+.preview {
+  max-width: 100%;
+  margin-top: 2rem;
+  background-color: cadetblue;
+  display: inline-block;
+  overflow: scroll;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.title-2 {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+@media screen and (min-width: 780px) {
+  .app {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .editor-container {
+    width: 50%;
+    min-height: 80%;
+  }
+  .preview-container {
+    width: 50%;
+    min-height: 90%;
+  }
+
+  textarea {
+    min-height: 90%;
+    min-width: 90%;
+  }
+}

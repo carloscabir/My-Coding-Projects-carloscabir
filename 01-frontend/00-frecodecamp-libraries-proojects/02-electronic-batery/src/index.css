@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: #222;
+  color: white;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.drum-machine {
+  border: thick solid #d8bfd8;
+  background-color: #444;
+  padding: 3rem;
+  max-width: 60vw;
+  margin: auto;
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.drum-machine > * {
+  margin: 2rem 7%;
+}
+
+.drum-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 150%;
+}
+
+.drum-pad {
+  background-color: #d8bfd8;
+  border-radius: 0.5rem;
+  margin: 0.3rem;
+  padding: 1.5rem;
+  transition: opacity 500ms ease-in-out;
+}
+
+.drum-pad:hover {
+  opacity: 0.75;
+}
+
+.display {
+  background-color: #222;
+  padding: 1.5rem 6rem;
+  text-align: center;
+}
