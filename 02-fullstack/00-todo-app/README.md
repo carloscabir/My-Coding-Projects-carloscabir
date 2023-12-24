@@ -1,7 +1,3 @@
-`THIS README IS FOR THE MAIN REPOSITORY, BOTH WITH AND WITHOUT PERSISTENCE`
-
-[] Create a a directory in my projects with both projects (to copy this and develop the new one there)
-
 # React + Typescript Todo!
 A Todo made with `React + Typescript` and `MongoDB Atlas` as database
 This Todo was made according to @midudev course while I was watching the class
