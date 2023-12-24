@@ -1,3 +1,6 @@
 [submodule "00-backend/00-fcc-backend-and-apis-projects/00-timestamp-microservic"]
 	path = 00-backend/00-fcc-backend-and-apis-projects/00-timestamp-microservic
 	url = https://github.com/carloscabir/fcc-project-timestamp-nodejs
+[submodule "00-backend/01-cabichat-nodejs/cabichat-nodejs-mongodb"]
+	path = 00-backend/01-cabichat-nodejs/cabichat-nodejs-mongodb
+	url = https://github.com/carloscabir/cabichat-nodejs-mongodb
