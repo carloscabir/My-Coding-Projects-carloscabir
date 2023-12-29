@@ -10,3 +10,6 @@
 [submodule "02-fullstack/00-todo-app/01-persistence-todo/server"]
 	path = 02-fullstack/00-todo-app/01-persistence-todo/server
 	url = https://github.com/carloscabir/todo-app-nodejs-back-project
+[submodule "02-fullstack/00-todo-app/01-persistence-todo/client"]
+	path = 02-fullstack/00-todo-app/01-persistence-todo/client
+	url = https://github.com/carloscabir/todo-app-tsx-front-project
