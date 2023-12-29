@@ -4,3 +4,9 @@
 [submodule "00-backend/01-cabichat-nodejs/cabichat-nodejs-mongodb"]
 	path = 00-backend/01-cabichat-nodejs/cabichat-nodejs-mongodb
 	url = https://github.com/carloscabir/cabichat-nodejs-mongodb
+[submodule "00-backend/00-fcc-backend-and-apis-projects/01-request-header-parser-microservice"]
+	path = 00-backend/00-fcc-backend-and-apis-projects/01-request-header-parser-microservice
+	url = https://github.com/carloscabir/fcc-project-header-parser-nodejs
+[submodule "02-fullstack/00-todo-app/01-persistence-todo/server"]
+	path = 02-fullstack/00-todo-app/01-persistence-todo/server
+	url = https://github.com/carloscabir/todo-app-nodejs-back-project
