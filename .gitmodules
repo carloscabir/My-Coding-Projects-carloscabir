@@ -13,3 +13,6 @@
 [submodule "02-fullstack/00-todo-app/01-persistence-todo/client"]
 	path = 02-fullstack/00-todo-app/01-persistence-todo/client
 	url = https://github.com/carloscabir/todo-app-tsx-front-project
+[submodule "00-backend/00-fcc-backend-and-apis-projects/02-url-shortener"]
+	path = 00-backend/00-fcc-backend-and-apis-projects/02-url-shortener
+	url = https://github.com/carloscabir/fcc-project-url-shortcut-service-carloscabir
